@@ -231,13 +231,21 @@ body {
 }
 
 .team-subtitle {
-  padding-bottom: 8px;
+  padding-top: 32px;
+  margin-bottom: 8px;
   text-align: center;
 }
 
 .team-image {
   display: block;
-  padding-bottom: 32px;
+}
+
+.team-wrap {
+  /* padding-top: 32px;
+  padding-bottom: 32px;  */
+
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--white-background);
 }
 
 .team-item {
