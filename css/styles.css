@@ -19,6 +19,7 @@ h3,
 p,
 ul {
   margin: 0;
+  padding: 0;
 }
 
 .list {
@@ -32,7 +33,6 @@ ul {
   text-decoration: none;
 }
 
-/*------------------ body -------------*/
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -40,13 +40,35 @@ body {
   background-color: var(--white-background);
 }
 
-/* -------------Container------------- */
 .container {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.section {
+  padding: 120px 0;
+}
+
+.title {
+  margin-bottom: 72px;
+
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark);
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
 }
 
 /*------------------ HEADER -------------*/
@@ -140,6 +162,7 @@ body {
 
 .hero-button {
   display: inline-block;
+  border: transparent;
   border-radius: 4px;
   padding: 16px 32px;
   margin: 0 auto;
@@ -155,10 +178,6 @@ body {
   cursor: pointer;
 }
 
-.section {
-  padding: 120px 0;
-}
-
 /* ----------------- benefits-----------*/
 
 .benefits-container {
@@ -172,6 +191,10 @@ body {
 }
 .benefits-item {
   width: 264px;
+}
+
+.benefits-text {
+  min-width: 264px;
 }
 
 /* -----------service-------------- */
@@ -191,33 +214,10 @@ body {
 
 .team-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 24px;
 }
 
-/* title */
-.title {
-  margin-bottom: 72px;
-
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--dark);
-}
-
-/* subtitle */
-
-.subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--dark);
-}
-
-/* -------------------Our-Team--------------- */
 .team {
   background: var(--light);
 }
@@ -242,10 +242,6 @@ body {
   text-align: center;
 }
 
-.benefits-text {
-  min-width: 264px;
-}
-
 .text {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -258,6 +254,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-bottom: 87px;
 }
 
 .portfolio-section {
@@ -268,6 +265,7 @@ body {
 .portfolio-button {
   display: inline-block;
   padding: 12px 24px;
+  border: transparent;
   border-radius: 4px;
 
   font-family: "Roboto", sans-serif;
@@ -299,18 +297,9 @@ body {
   background: var(--white-background);
 }
 
-.portfolio-subtitle {
-  padding-top: 32px;
-  padding-bottom: 8px;
-}
-
 .portfolio-list {
   margin-bottom: 72px;
   padding: 0;
-}
-
-.portfolio-text {
-  padding-bottom: 32px;
 }
 
 .portfolio-image {
@@ -318,6 +307,9 @@ body {
 }
 
 .portfolio-wrap {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
   border: 1px solid #e7e9fc;
   border-top: 0;
 }
