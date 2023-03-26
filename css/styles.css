@@ -231,7 +231,6 @@ body {
 }
 
 .team-subtitle {
-  padding-top: 32px;
   margin-bottom: 8px;
   text-align: center;
 }
@@ -241,8 +240,8 @@ body {
 }
 
 .team-wrap {
-  /* padding-top: 32px;
-  padding-bottom: 32px;  */
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   border-radius: 0px 0px 4px 4px;
   background-color: var(--white-background);
@@ -254,7 +253,6 @@ body {
 } */
 
 .team-text {
-  padding-bottom: 32px;
   text-align: center;
 }
 
@@ -313,6 +311,10 @@ body {
   background: var(--white-background);
 }
 
+.portfolio-subtitle {
+  margin-bottom: 8px;
+}
+
 .portfolio-list {
   margin-bottom: 72px;
   padding: 0;
@@ -337,6 +339,7 @@ body {
 }
 .footer-logo {
   display: block;
+  padding: 0;
   margin-bottom: 17.5px;
 }
 .studio {
