@@ -248,10 +248,10 @@ body {
   background-color: var(--white-background);
 }
 
-.team-item {
+/* .team-item {
   border-radius: 0px 0px 4px 4px;
   background-color: var(--white-background);
-}
+} */
 
 .team-text {
   padding-bottom: 32px;
